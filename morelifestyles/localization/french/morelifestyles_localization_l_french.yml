@@ -9,3 +9,11 @@
  trait_very_infertile_desc:0 "Ce personnage est excessivement stérile."
  trait_lightly_infertile:0 "Légèrement stérile"
  trait_lightly_infertile_desc:0 "Ce personnage est légèrement stérile."
+ 
+ # Carnivorous
+ trait_carnivorous:0 "Carnivore"
+ trait_carnivorous_desc:0 "Ce personnage ne mange que de la viande."
+ 
+ # Vegetarian
+ trait_vegetarian:0 "Végétarien"
+ trait_vegetarian_desc:0 "Ce personnage ne mange pas de viande."
