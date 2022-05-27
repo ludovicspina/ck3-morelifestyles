@@ -1,0 +1,7 @@
+﻿#m_step_1_perk_effect = {
+#	global = ESPIONAGE_MAY_FABRICATE_HOOKS
+#}
+#
+#m_step_1_scheme_effect = {
+#	global = ENABLE_FABRICATE_HOOK_SCHEME
+#}

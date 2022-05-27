@@ -1,0 +1,61 @@
+﻿#m_step_1_perk = {
+#	lifestyle = seduction_lifestyle
+#	tree = magnificence
+#	position = { 2 0 }
+#	icon = node_seduction
+#
+#	auto_selection_weight = {
+#		value = 11
+#		if = {
+#			limit = {
+#				has_education_seduction_trigger = yes
+#			}
+#			add = 1989
+#		}
+#		if = {
+#			limit = {
+#				has_focus = seduction_magnificence_focus
+#			}
+#			multiply = 5
+#		}
+#		if = {
+#			limit = {
+#				can_start_new_lifestyle_tree_trigger = no
+#			}
+#			multiply = 0
+#		}
+#	}
+#
+#	can_be_picked = {
+#		always = yes
+#	}
+#
+#	effect = {
+#		custom_description_no_bullet = {
+#			text = m_step_1_scheme_effect
+#		}
+#		custom_description_no_bullet = {
+#			text = m_step_1_perk_effect
+#		}
+#	}
+#}
+#
+#m_step_2_perk = {
+#	lifestyle = seduction_lifestyle
+#	tree = magnificence
+#	position = { 0 1.25 }
+#	icon = node_seduction
+#
+#	parent = m_step_1_perk
+#
+#	can_be_picked = {
+#		always = yes
+#	}
+#
+#	effect = {
+#		custom_description_no_bullet = {
+#			text = m_step_2_perk_effect
+#		}
+#	}
+#}
+#

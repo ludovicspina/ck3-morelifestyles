@@ -1,0 +1,11 @@
+﻿l_french:
+
+ #seduction
+ seduction_lifestyle_name:0 "Magnificence"
+ seduction_lifestyle_desc:0 "Se concentrer sur sa beauté, ainsi vous serez à même de maîtriser par l'amour des autres."
+ seduction_lifestyle_highlight_desc:0 "En raison de votre [education|El] en seduction, vous gagnez #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! d’[experience|El] en plus dans ce mode de vie."
+ seduction_magnificence_focus:1 "Intérêt: Magnificence"
+ seduction_magnificence_focus_modifier:1 "[GetFocus('seduction_magnificence_focus').GetName]"
+ seduction_magnificence_focus_desc:0 "Complots, subversion et secrets."
+ seduction_magnificence_focus_effect_desc:0 "Se concentrer sur la rouerie procure:\n$seduction_magnificence_focus_effect$"
+ magnificence_name:0 "Magnifique"

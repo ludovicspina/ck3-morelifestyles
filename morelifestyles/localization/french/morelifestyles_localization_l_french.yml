@@ -1,0 +1,11 @@
+﻿l_french:
+ # Traits
+ # Immortal
+ trait_immortal:0 "Immortel"
+ trait_immortal_desc:0 "Ce personnage peut vivre éternellement."
+ 
+ # Infertile (very and lightly)
+ trait_very_infertile:0 "Excessivement stérile"
+ trait_very_infertile_desc:0 "Ce personnage est excessivement stérile."
+ trait_lightly_infertile:0 "Légèrement stérile"
+ trait_lightly_infertile_desc:0 "Ce personnage est légèrement stérile."

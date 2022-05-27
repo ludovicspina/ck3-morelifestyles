@@ -1,0 +1,45 @@
+immortal = {
+	physical = yes
+	ruler_designer_cost = 40
+	genetic = yes
+	inherit_chance = 10
+	birth = 0.5
+	immortal = yes
+	desc = trait_immortal_desc
+}
+
+very_infertile = {
+	physical = yes
+	fertility = -0.8
+	opposites = {
+		fecund
+	}
+	
+	ruler_designer_cost = 0
+	
+	desc = trait_very_infertile_desc
+	
+	#inherit_chance = 50
+	genetic = yes
+	enables_inbred = yes
+	birth = 0.5
+	random_creation = 0.5
+}
+
+lightly_infertile = {
+	physical = yes
+	fertility = -0.2
+	opposites = {
+		fecund
+	}
+	
+	ruler_designer_cost = 0
+	
+	desc = trait_lightly_infertile_desc
+	
+	#inherit_chance = 50
+	genetic = yes
+	enables_inbred = yes
+	birth = 0.5
+	random_creation = 0.5
+}
