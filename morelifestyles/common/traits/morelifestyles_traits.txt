@@ -3,7 +3,8 @@ immortal = {
 	ruler_designer_cost = 40
 	genetic = yes
 	inherit_chance = 10
-	birth = 1
+	birth = 0.5
+	random_creation = 0.5
 	immortal = yes
 	desc = trait_immortal_desc
 }
@@ -11,61 +12,48 @@ immortal = {
 very_infertile = {
 	physical = yes
 	fertility = -0.8
-	opposites = {
-		fecund
-	}
-	
 	ruler_designer_cost = 0
-	
 	desc = trait_very_infertile_desc
-	
-	#inherit_chance = 50
+	inherit_chance = 50
 	genetic = yes
 	enables_inbred = yes
 	birth = 0.5
 	random_creation = 0.5
+	opposites = {
+		fecund
+	}
 }
 
 lightly_infertile = {
 	physical = yes
 	fertility = -0.2
-	opposites = {
-		fecund
-	}
-	
 	ruler_designer_cost = 0
-	
 	desc = trait_lightly_infertile_desc
-	
-	#inherit_chance = 50
+	inherit_chance = 50
 	genetic = yes
 	enables_inbred = yes
 	birth = 0.5
 	random_creation = 0.5
+	opposites = {
+		fecund
+	}
 }
 
-carnivorous  = {
+carnivorous = {
 	prowess = 1
-	
-	random_creation = 10
-	
+	enables_inbred = yes
+	birth = 0.5
+	random_creation = 0.5
 	same_opinion = 30
 	opposite_opinion = -50
-	
 	stress_loss_mult = 0.05
-	
 	dread_baseline_add = 10
-	
 	ruler_designer_cost = 15
-	
 	desc = trait_carnivorous_desc
-	
 	ai_rationality = -5
 	ai_honor = 10
 	ai_compassion = -10
-	
 	monthly_martial_lifestyle_xp_gain_mult = 0.1
-	
 	opposites = {
 		vegetarian
 	}
@@ -73,26 +61,19 @@ carnivorous  = {
 
 vegetarian = {
 	monthly_piety = 0.3
-	
-	random_creation = 8
-	
+	enables_inbred = yes
+	birth = 0.5
+	random_creation = 0.5
 	same_opinion = 30
 	opposite_opinion = -50
-	
 	stress_loss_mult = 0.10
-	
 	dread_baseline_add = -1
-	
 	ruler_designer_cost = 15
-	
 	desc = trait_vegetaria_desc
-	
 	ai_rationality = 15
 	ai_honor = -5
 	ai_compassion = 15
-	
 	monthly_learning_lifestyle_xp_gain_mult = 0.1
-	
 	opposites = {
 		carnivorous
 	}
